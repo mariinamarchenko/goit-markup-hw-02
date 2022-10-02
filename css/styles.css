@@ -20,6 +20,7 @@ font-family: Raleway;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
+letter-spacing: 0.03em;
 }
 
 .logo-web {
@@ -103,10 +104,6 @@ line-height: 1.19;
     text-transform: uppercase;
     color: #FFFFFF;
 }
- 
-.main-button:hover {   
-}
-
 .main-button {    
     background-color: #2196F3;
     font-weight: 700;
@@ -228,16 +225,16 @@ line-height: 1.19;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.filter-button:hover,
-.filter-button:focus {
-
-}
-
 .filter-button-all {
     font-weight: 500;
     font-size: 16px;
     line-height: 1,63;
     color: #212121;
+}
+
+.site-nav-st:hover,
+.studio-link:focus {
+    color: #2196F3;
 }
 
 .site-nav-st {
@@ -270,6 +267,66 @@ line-height: 1.19;
     color: #757575;
 }
 
+.filter-button-all {  
+    background-color: #2196F3;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.filter-button-site {
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: #212121;
+}
+
+.filter-button-apps {
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: #212121;
+}
+
+.filter-button-design {
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: #212121;
+}
+
+.filter-button-marketing {
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    color: #212121;
+}
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -281,6 +338,4 @@ line-height: 1.19;
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-
-
-
+}
