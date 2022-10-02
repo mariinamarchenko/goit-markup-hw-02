@@ -14,13 +14,15 @@ body {
     background-color: var(--color-background);
     font-family: Roboto;
 }
+
 .logo {
-text-decoration: none;
-font-family: Raleway;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .logo-web {
@@ -98,14 +100,22 @@ letter-spacing: 0.03em;
 
 .main {
     background-color: #2F303A;
+}
+
+.main-header {
+    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    letter-spacing: 0.06em;
 }
 .main-button {    
     background-color: #2196F3;
+    font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -114,6 +124,7 @@ letter-spacing: 0.03em;
     text-align: center;
     color: #FFFFFF;
     cursor: pointer;
+    letter-spacing: 0.06em;
 }
 
 .advantages-title {
@@ -122,13 +133,14 @@ letter-spacing: 0.03em;
     line-height: 1.14;
     text-transform: uppercase;
     color: #212121;
+    letter-spacing: 0.03em;
 }
 
 .advantages-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: #757575;
+    letter-spacing: 0.03em;
 }
 
 .services {
@@ -136,6 +148,7 @@ letter-spacing: 0.03em;
     font-size: 36px;
     line-height: 1.17;
     color: #212121;
+    letter-spacing: 0.03em;
 }
 
 .team {
@@ -147,6 +160,7 @@ letter-spacing: 0.03em;
     font-size: 36px;
     line-height: 1.17;
     color: #212121;
+    letter-spacing: 0.03em;
 }
 
 .team-member {
@@ -154,13 +168,14 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.19;
     color: #212121;
+    letter-spacing: 0.03em;
 }
 
 .team-resp {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     color: #757575;
+    letter-spacing: 0.03em;
 }
 
 .footer {
@@ -190,11 +205,11 @@ letter-spacing: 0.03em;
 
 .footer-address-map {
     text-decoration: none;
-    font-weight: 400;
     font-size: 14px;
     font-style: normal;
     line-height: 1.71;
     color: #FFFFFF;
+    letter-spacing: 0.03em;
 }
 
 .footer-address-email:hover,
@@ -204,11 +219,11 @@ letter-spacing: 0.03em;
 
 .footer-address-email {
     text-decoration: none;
-    font-weight: 400;
     font-size: 14px;
     font-style: normal;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
 }
 
 .footer-address-phone:hover,
@@ -219,17 +234,10 @@ letter-spacing: 0.03em;
 .footer-address-phone {
     text-decoration: none;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
-}
-
-.filter-button-all {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,63;
-    color: #212121;
+    letter-spacing: 0.03em;
 }
 
 .site-nav-st:hover,
@@ -258,17 +266,19 @@ letter-spacing: 0.03em;
     font-size: 18px;
     line-height: 2;
     color: #212121;
+    letter-spacing: 0.06em;
 }
 
-.category{
-    font-weight: 400;
+.category {
     font-size: 16px;
     line-height: 1.88;
     color: #757575;
+    letter-spacing: 0.03em;
 }
 
-.filter-button-all {  
+.button-all {
     background-color: #2196F3;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.88;
@@ -277,10 +287,12 @@ letter-spacing: 0.03em;
     text-align: center;
     color: #FFFFFF;
     cursor: pointer;
+    letter-spacing: 0.03em;
 }
 
-.filter-button-site {
+.button-site, .button-apps, .button-design, .button-marketing {
     background-color: #F5F4FA;
+    font-family: Roboto;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.88;
@@ -289,42 +301,7 @@ letter-spacing: 0.03em;
     text-align: center;
     cursor: pointer;
     color: #212121;
-}
-
-.filter-button-apps {
-    background-color: #F5F4FA;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-    color: #212121;
-}
-
-.filter-button-design {
-    background-color: #F5F4FA;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-    color: #212121;
-}
-
-.filter-button-marketing {
-    background-color: #F5F4FA;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    cursor: pointer;
-    color: #212121;
+    letter-spacing: 0.03em;
 }
 
 .visually-hidden {
