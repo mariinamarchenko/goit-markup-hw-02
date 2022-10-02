@@ -44,6 +44,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     color: #2196F3;
+    letter-spacing: 0.02em;
 }
 
 .site-nav-portfolio:hover,
@@ -57,6 +58,7 @@ body {
     font-size: 14px;
     line-height: 1.14px;
     color: #212121;
+    letter-spacing: 0.02em;
 }
 
 .site-nav-contact:hover,
@@ -70,6 +72,7 @@ body {
     font-size: 14px;
     line-height: 1.14px;
     color: #212121;
+    letter-spacing: 0.02em;
 }
 
 .contact-email:hover,
@@ -83,6 +86,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     color: #757575;
+    letter-spacing: 0.02em;
 }
 
 .contact-phone:hover,
@@ -96,6 +100,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     color: #757575;
+    letter-spacing: 0.02em;
 }
 
 .main {
@@ -188,6 +193,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     color: #2196F3;
+    letter-spacing: 0.03em;
 }
 
 .footer-logo-studio {
@@ -196,6 +202,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     color: #FFFFFF;
+    letter-spacing: 0.03em;
 }
 
 .footer-address-map:hover,
@@ -251,6 +258,7 @@ body {
     font-size: 14px;
     line-height: 1.14px;
     color: #212121;
+    letter-spacing: 0.02em;
 }
 
 .site-nav-port {
@@ -259,6 +267,7 @@ body {
     font-size: 14px;
     line-height: 1.14px;
     color: #2196F3;
+    letter-spacing: 0.02em;
    }
 
 .project-name {
