@@ -1,0 +1,286 @@
+ul {
+    list-style: none;
+}
+
+:root {
+    --color-primary:#757575;
+    --color-accent: #2196F3;
+    --color-background: #FFFFFF;
+}
+
+body {
+    color: var(--color-primary);
+    font-size: 14px;
+    background-color: var(--color-background);
+    font-family: Roboto;
+}
+.logo {
+text-decoration: none;
+font-family: Raleway;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+}
+
+.logo-web {
+    color: #2196F3;
+}
+
+.logo-studio {
+    color:#000000
+}
+
+.site-nav-studio:hover,
+.studio-link:focus {
+    color: #2196F3;
+}
+
+.site-nav-studio {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #2196F3;
+}
+
+.site-nav-portfolio:hover,
+.portfolio-link:focus {
+    color: #2196F3;
+}
+
+.site-nav-portfolio {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: #212121;
+}
+
+.site-nav-contact:hover,
+.contact-link:focus {
+    color: #2196F3;
+}
+
+.site-nav-contact {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: #212121;
+}
+
+.contact-email:hover,
+.contact-email:focus {
+    color:#2196F3;
+}
+
+.contact-email {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+}
+
+.contact-phone:hover,
+.contact-phone:focus {
+    color: #2196F3;
+}
+
+.contact-phone {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+}
+
+.main {
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+ 
+.main-button:hover {   
+}
+
+.main-button {    
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.advantages-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.advantages-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+}
+
+.services {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: #212121;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: #212121;
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: #212121;
+}
+
+.team-resp {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: #757575;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo-web {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+}
+
+.footer-logo-studio {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #FFFFFF;
+}
+
+.footer-address-map:hover,
+.footer-address-map:focus {
+    color: #2196F3;
+}
+
+.footer-address-map {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    color: #FFFFFF;
+}
+
+.footer-address-email:hover,
+.footer-address-email:focus {
+    color: #2196F3;
+}
+
+.footer-address-email {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-address-phone:hover,
+.footer-address-phone:focus {
+    color: #2196F3;
+}
+
+.footer-address-phone {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+
+}
+
+.filter-button-all {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,63;
+    color: #212121;
+}
+
+.site-nav-st {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: #212121;
+}
+
+.site-nav-port {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: #2196F3;
+   }
+
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+}
+
+.category{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #757575;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+
+
+
